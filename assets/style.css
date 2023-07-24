@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.slot{
+    min-height: 50px;
+    background-color: #006dfa;
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nested{
+    height: 50px;
+    background-color: #01e165;
+    margin: 10px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section{
+    margin-bottom: 50px;
+}
